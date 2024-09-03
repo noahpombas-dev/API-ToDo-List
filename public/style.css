@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+h1, h3 {
+    font-size: 1.75rem;
+}
+
+.task-list {
+    margin-bottom: 2rem;
+}
+
+.task-item {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+
+}
+
+.task-item strong {
+    color: #007bff;
+}
+
+.task-item button {
+    margin-left: 0.5rem;
+}
+
+.task-inputs {
+    padding: 1.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,0.075);
+}
+
+.task-inputs .form-control,
+.task-inputs select {
+    margin-bottom: 1rem;
+}
+
+.task-inputs button {
+    width: 100%;
+}
+
+.btn-toggle-mode {
+    margin-bottom: 1rem;
+}
+
+.modal-content {
+    background-color: #ffffff;
+    color: #212529;
+}
+
+.modal-header, .modal-footer {
+    border-color: #dee2e6;
+}
+
+.modal-body .form-control,
+.modal-body select {
+    background-color: #ffffff;
+    color: #212529;
+    border-color: #ced4da;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+.text-light {
+    color: #f8f9fa !important;
+}
+
+
+/* Add this to your CSS file */
+.shake {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+}
+
+.is-invalid {
+    border-color: red;
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.is-invalid-add {
+    border-color: red;
+    color: red;
+}
