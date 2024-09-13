@@ -15,7 +15,6 @@ const SECRET_KEY = 'your_secret_key'; // Use a strong secret key in production
 
 app.use(bodyParser.json());
 app.use(cors());
-app.use(express.static(path.join(__dirname, 'public')));
 
 let users = JSON.parse(fs.readFileSync(USERS_FILE, 'utf8'));
 
